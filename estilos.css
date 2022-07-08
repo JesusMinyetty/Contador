@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+  
+    background-color: #0e0e0e;
+
+}
+
+.contenedor {
+    height: auto;
+    background-color:#262626;
+    padding: 200px 190px 235px;
+    margin: 123px 123px ;
+}
+
+.contenedor2 {
+    height: 61px;
+    width: 61px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.contar {
+ text-align: center;
+ font-size: 32px;
+ font-weight: 700;
+ margin: 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    
+}
+
+span {
+    color: #262626;
+}
+.incrementar, .disminuir{
+    width: 60px;
+    height: 59px;
+    border-radius: 50%;
+    border-style:none;
+    margin: 67px 32px 0px 55px;
+    cursor: pointer;
+    background-color: #737373;
+    padding: 0 0 0 0 ;
+    
+}
+.incrementar {
+    position: absolute;
+    margin:4% 0% 0% 8%; 
+}
+
+.disminuir {
+    position: absolute;
+    margin: 4% 11% 13% 3%;
+
+ 
+}
